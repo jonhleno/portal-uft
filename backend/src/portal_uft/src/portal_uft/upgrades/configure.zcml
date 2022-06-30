@@ -14,4 +14,15 @@
         />
   </genericsetup:upgradeSteps>
 
+  <genericsetup:upgradeSteps
+      profile="portal_uft:default"
+      source="20220630002"
+      destination="20220630003"
+      >
+    <genericsetup:upgradeDepends
+        title="Add Portal Configs"
+        import_steps="typeinfo"
+        />
+  </genericsetup:upgradeSteps>
+
 </configure>

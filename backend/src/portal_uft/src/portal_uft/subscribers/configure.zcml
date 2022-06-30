@@ -1,3 +1,14 @@
 <configure xmlns="http://namespaces.zope.org/zope">
 
+  <subscriber
+      for="portal_uft.content.campus.ICampus
+           zope.lifecycleevent.IObjectAddedEvent"
+      handler=".campus.added"
+      />
+
+  <subscriber
+      for="portal_uft.content.campus.ICampus
+           zope.lifecycleevent.IObjectModifiedEvent"
+      handler=".campus.modified"
+      />
 </configure>

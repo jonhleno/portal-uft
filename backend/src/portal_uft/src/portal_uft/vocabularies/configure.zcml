@@ -1,10 +1,13 @@
 <configure xmlns="http://namespaces.zope.org/zope">
 
-  <!-- Example vocabulary
   <utility
-      name="portal_uft.vocabulary.industries"
-      component=".industries_vocabulary"
+      name="portal_uft.vocabulary.cities"
+      component=".cities.cities_vocabulary"
       />
-   -->
+
+  <utility
+      name="portal_uft.vocabulary.campus"
+      component=".campus.campus_vocabulary"
+      />
 
 </configure>
