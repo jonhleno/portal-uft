@@ -1,0 +1,19 @@
+{
+  "portal": [
+    {
+      "email": "desenvolvimento@uft.edu.br",
+      "properties": {
+        "fullname": "portal-uft",
+        "location": "World"
+      },
+      "groups": [
+      ],
+      "roles": [
+        "Member"
+      ],
+      "username": "portal-uft"
+    }
+  ],
+    "team": [
+  ]
+}

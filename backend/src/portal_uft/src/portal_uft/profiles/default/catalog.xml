@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<object name="portal_catalog">
+  <!-- Index -->
+  <index meta_type="KeywordIndex"
+         name="campus"
+  >
+    <indexed_attr value="campus" />
+  </index>
+  <!-- Metadata -->
+  <column value="campus" />
+</object>
